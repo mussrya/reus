@@ -1,0 +1,44 @@
+/* PURPLE THEME */
+
+html {
+    background-image: linear-gradient(90deg, rgb(41, 128, 185) 0%, rgb(102, 57, 182) 100%);
+    background-image: -moz-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(102, 57, 182) 100%);
+    background-image: -webkit-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(102, 57, 182) 100%);
+    background-image: -o-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(102, 57, 182) 100%);
+    background-image: -ms-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(102, 57, 182) 100%);
+}
+html.ie{
+    background: url(../../../images/ie9/purple-ie9.png) repeat-y;
+    background-size: contain;
+}
+h1.homeHeading,
+.footer h4,
+a.navbar-brand {
+    color: #C2A0FF;
+}
+.subscribeBox .subscribeBtn,
+.contactBtn {
+    background: rgba(102, 57, 182, 0.3);
+}
+.imgOverlay .overlayColor {
+    background: rgba(139, 96, 232, 0.5);
+}
+.subscribeBtn:hover,
+.contactBtn:hover,
+.buyButton button:hover,
+.buyButton .active {
+    background: rgba(102, 57, 182, 0.8);
+    color: #fff;
+}
+.profileButton:hover{
+    background: rgba(102, 57, 182, 0.5);
+}
+.serviceBlock .leftIcon{
+    background: rgba(102, 57, 182, 0.5);
+}
+.serviceBlock .leftIcon:hover{
+    background: rgba(102, 57, 182, 1);
+}
+.priceBox .priceHeader.active{    
+    background: rgba(102, 57, 182, 0.6);
+}

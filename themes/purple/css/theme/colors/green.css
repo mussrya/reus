@@ -1,0 +1,44 @@
+/* GREEN THEME */
+
+html {
+    background-image: linear-gradient(90deg, rgb(41, 128, 185) 0%, rgb(39, 174, 96) 100%);
+    background-image: -moz-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(39, 174, 96) 100%);
+    background-image: -webkit-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(39, 174, 96) 100%);
+    background-image: -o-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(39, 174, 96) 100%);
+    background-image: -ms-linear-gradient(left, rgb(41, 128, 185) 0%, rgb(39, 174, 96) 100%);
+}
+html.ie{
+    background: url(../../../images/ie9/green-ie9.png) repeat-y;
+    background-size: contain;
+}
+h1.homeHeading,
+.footer h4,
+a.navbar-brand {
+    color: #A0FFB0;
+}
+.subscribeBtn,
+.contactBtn {
+    background: rgba(96, 232, 138, 0.3);
+}
+.imgOverlay .overlayColor {
+    background: rgba(96, 232, 138, 0.5);
+}
+.subscribeBtn:hover,
+.contactBtn:hover,
+.buyButton button:hover,
+.buyButton .active {
+    background: rgba(96, 232, 138, 0.8);
+    color: #fff;
+}
+.profileButton:hover{
+    background: rgba(96, 232, 138, 0.5);
+}
+.serviceBlock .leftIcon{
+    background: rgba(96, 232, 138, 0.5);
+}
+.serviceBlock .leftIcon:hover{
+    background: rgba(96, 232, 138, 1);
+}
+.priceBox .priceHeader.active{    
+    background: rgba(96, 232, 138, 0.6);
+}
